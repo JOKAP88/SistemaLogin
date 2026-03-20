@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DCD6E6;
+}
+
+.card{
+    width: 656px;
+    max-width: 95%;
+    background: #E9E4F1;
+    padding: 40px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card h2{
+    text-align: center;
+    color: #D16BA5;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #444444;
+    text-align: left;
+}
+
+span{
+    color: red;
+}
+
+input{
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px;
+    margin-bottom: 20px;
+    background: #f4F2F9;
+    font-size: 14px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid #A685E2;
+    box-shadow: 0 0 5px rgb(166, 133, 226, 0.4);
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #8E44AD, #c471ed);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+
+.form-footer{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+.form-footer a{
+    color: #b16ba5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-footer a:hover{
+    text-decoration: underline;
+}
+
+
+.card img{
+    position: absolute;
+    top: -70px;
+    right: -80px;
+    width: 250px;
+}
