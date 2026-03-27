@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    require 'config./config.php';
+    require 'config/config.php';
 
     $email = $_POST['email'];
     $pasword = $_POST['password'];
@@ -17,9 +17,9 @@
         $_SESSION['tipo'] = $user['tipo'];
 
         if($user['tipo'] == 'admin'){
-            header("Location: dashboard_admin.php");
+            header("Location:dashboard_admin.php");
         }else{
-            header("Location: dashboard_user.php");
+            header("Location:dashboard_user.php");
         }
 
         exit;
