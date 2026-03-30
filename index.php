@@ -11,7 +11,7 @@ if (!empty($_SESSION['user_id']) && !empty($_SESSION['tipo'])) {
             header("Location: dashboard_admin.php");            #Ficheiro a fazer 
             break;
         case 'user':
-            header("Location:dawshboard_user.php");             #Ficheiro a fazer
+            header("Location: dashboard_user.php");             #Ficheiro a fazer
             break;
         default:
             session_destroy();
@@ -22,6 +22,5 @@ if (!empty($_SESSION['user_id']) && !empty($_SESSION['tipo'])) {
 }
 
 
-exit(); #optional
-
+exit; #optional
 ?>

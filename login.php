@@ -10,7 +10,7 @@
 
         <form action="process_login.php" method="POST">
             <label>Enter Your Email<span>*</span></label>
-            <input type="email" name="email" placeholder="Enter Your Email" require>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
 
             <label>Enter Your Password<span>*</span></label>
             <input type="password" name="password" placeholder="Enter Your Password" required>
